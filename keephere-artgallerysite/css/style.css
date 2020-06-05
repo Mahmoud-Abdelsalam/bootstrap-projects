@@ -1,0 +1,40 @@
+body {
+    background: #15191C;
+    color: azure;
+}
+.navbar{
+    border-bottom: #6FBAFD 2px solid;
+    opacity: 0.8;
+}
+#home{
+
+    background-image: url(../img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 800px;
+}
+
+.dark-overlay{
+        position: absolute;
+        left: 0;
+        top: 0 ;
+        width : 100%;
+        height: 800px;
+        background: rgba(0,0,0,0.7);
+}
+
+#home .home-inner{
+    padding-top: 150px;
+}
+
+#home-section .fas, #create-section .fas {
+  color: #008ed6;
+}
+
+#explore-section .fas , #share-section .fas{
+    /* background: #333; */
+    color: #4F5355;
+    /* padding: 4px; */
+    /* border-radius: 5px; */
+}
